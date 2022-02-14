@@ -7,6 +7,7 @@ body{
     background-size: cover;
     
 }
+
 p::selection {
     background-color: #E1D8CF;
     color: #683C11;
