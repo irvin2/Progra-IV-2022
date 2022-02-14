@@ -10,5 +10,5 @@ diseño con boostrab, css
 
  😎  TEAM®️ 😎
 ## irvin eduardo Castro Sanchez USIS025118     grupo A2 ## 👨‍💻
-## Rodrigo Alexander Miranda Pineda USIS032319 grupo A1 ##👨‍💻
+## Rodrigo Alexander Miranda Pineda USIS032319 grupo A2 ##👨‍💻
 ## Laura beatriz rivera zelaya USIS032912      grupo A1 ## 👩‍💻
