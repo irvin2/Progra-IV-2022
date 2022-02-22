@@ -1,0 +1,42 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+body{
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    
+}
+
+p::selection {
+    background-color: #E1D8CF;
+    color: #683C11;
+}
+p::selection {
+    background-color: #E1D8CF;
+    color: #683C11;
+}
+input{
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+}
+input:valid{
+    background-color: #ffffff;
+    border: 1px solid #dbd4d4;
+}
+input:invalid{
+    background-color: #550303;
+    border: 1px solid #9c0505;
+}
+.parafo{
+    color: rgb(153, 1, 1);
+    background: #c7ffc0;
+}
+#parafo{
+    text-transform: uppercase;
+}
+#tecnologias{
+    text-transform: uppercase;
+}
