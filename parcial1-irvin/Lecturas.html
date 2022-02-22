@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>REGISTRO DE ALUMNOS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        td,
+        th {
+            text-align: center;
+            vertical-align: middle;
+        }
+    </style>
+
+</head>
+
+<body class="ligth" background="fondo.jpg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="README.md"> ACADEMICA </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="inicio.html">INICIO <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mostrar-matricula" data-modulo="matricula" href="clientes.html">Matricula</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <br class="row">
+        <div class="col-sm-5">
+            <div class="row p-2">
+                <div class="col-sm text-center text-white bg-dark">
+                    <h5>Matricula</h5>
+                </div>
+            </div>
+
+
+            <div class="panel-body">
+                <div class="row p-2">
+                    <div class="col-sm">idLectura:</div>
+                    <div class="col-sm">
+                        <input type="text" class="form-control input-sm alfanumerico" id="txtlect" />
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-sm">IdCliente:</div>
+                    <div class="col-sm">
+                        <input type="text" class="form-control input-sm alfanumerico" id="txtid" />
+                    </div>
+                </div>
+
+                <div class="row p-2">
+                    <div class="col-sm">Fecha:</div>
+                    <div class="col-sm">
+                        <input type="date" class="form-control input-sm alfanumerico" id="txtfecha" />
+                    </div>
+                </div>
+
+                <div class="row p-2">
+                    <div class="col-sm">Lectura anterior:</div>
+                    <div class="col-sm">
+                        <input type="text" class="form-control input-sm alfabeticos" id="txtlectAnt" />
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div div class="col-sm">Lectura Actual:</div>
+                    <div class="col-sm">
+                        <input type="tel" class="form-control input-sm enteros" id="txtlectActu" />
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div div class="col-sm">Pago:</div>
+                    <div class="col-sm">
+                        <input type="text" class="form-control input-sm enteros" id="txtpago" />
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-8"><br>
+                    <button type="button" id="btnAdd" class="btn btn-dark" aria-label="Left Align">
+                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Agregar
+                    </button>
+                    <button type="button" id="btnSave" class="btn btn-info" aria-label="Left Align">
+                        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Guardar cambios
+                    </button>
+                </div>
+            </div>
+        </div>
+        <br></br>
+        <div class="row text-center text-white bg-dark">
+            <div class="col">
+                <h5>REGISTRO</h5>
+            </div>
+        </div>
+        <div class="row p-2" >
+            <div class="col">
+                <span class="text-center"></span>
+                <table ID='tblMaterias' class='table table-striped table-responsive table-hover'>
+                    <tr>
+                        <th>idLectura</th>
+                        <th>IdCliente</th>
+                        <th>Fecha</th>
+                        <th>Lectura Anterior</th>
+                        <th>Lectura Actual</th>
+                        <th>Pago</th>
+                    </tr>
+                </table>
+                
+            </div>
+            
+
+        </div>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        </script>
+
+        <script src="js/validar.js"></script>
+        <script src="js/main_clientes.js"></script>
+        <script src="js/main.js"></script>
+        <script src="styles.css"></script>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+</body>
+
+</html>
